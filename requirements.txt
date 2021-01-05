@@ -1,0 +1,85 @@
+
+INTRODUCTION
+##################################################################
+
+
+MeatMonitor can be used by any user on MacOSX, Windows, or Linux. However, certain features are only available in MacOSX like Restart. All users must change the file path in the code for it to successfully render windows. Furthermore, if a user encounters any potential errors, the errors will be seen in the python console. Please see the remainder of the file for more specific information on installation and set up. Moreover, if you are using Windows or Linux, the dimensions of each label in Tkinter are subject to alteration based on the user's resolution. If for said reason this happens to you, please refer to our pdf to see what each page is actually supposed to like. Again, this should not be a problem for Mac users. 
+
+
+MODULES
+##################################################################
+
+
+•pandas library
+–To install the pandas library, open the command prompt (in a Windows OS) or the terminal (in a MacOS) and type pip install pandas into the command line interface. 
+
+–If all goes well, you should get as successfully installed numpy pandas message
+
+–In the event that this is not working for you, this resource has a plethora of different methods you can try:https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
+
+–It should be noted that the numpy module also gets installed when pandas is installed.
+
+-This is used to read the csv file. Numpy is also used in the data but is not widely used therefore not included.
+
+•matplotlib library
+–Similar to installing the pandas library, to install matplotlib, open the command prompt (in a WindowsOS) or the terminal (in a Mac OS) and type pip install matplotlib into the command line interface.
+
+–If all goes well, you should get a successfully installed matplotlib message
+
+–In the event that this is not working for you, this resource has a plethora of different methods you can try:https://matplotlib.org/3.3.3/users/installing.html
+
+-Used to create graphs for the user to understand their impact on the environment.
+
+•TkInter library
+–The TkInter library is a built in python library, so you shouldn’t need to install anything extra.
+
+–However, if our program is not running for you, that may mean that the version of TkInter you currently have on your computer may be outdated.
+
+–Please visit https://tkdocs.com/tutorial/install.htmland follow the instructions for your operating system.
+
+- Used to create a GUI.
+
+•PyTA
+- Used to test code. Not particularly relevant to the user unless they wish to modify the program and check their work. See https://www.cs.toronto.edu/~david/pyta/
+
+
+
+Data Sets
+##################################################################
+
+
+•Datasets
+–The link to download the dataset we used is:https://ourworldindata.org/grapher/per-capita-meat-consumption-by-type-kilograms-per-year
+
+–Once you have downloaded the dataset, you can save it to the same folder containing our main.py file.
+
+–You will then need to copy the file path of where the dataset is saved and paste it into country_data =pd.readcsv(...filepath of dataset...).  This is located on line 64.
+
+
+IMAGES
+##################################################################
+
+
+•Images
+–In order for our program to run to it’s true potential, you must also use the photos we used for our GUI.
+
+–Please  download  splash2.png  and  splash3.png  from  markus  and  save  them  to  the  same  file  in  which main.py is  in.   Then  please  follow  the  steps  below  to  ensure  the  correct  images  open  up  in  the  right windows.
+
+–On  line  314,  you  will  see  a  line  that  says png2 = Image.open(...filepath of splash3...).   Please paste the filepath of splash3.png into the designated place.
+
+–On  line  441,  you  will  see  a  line  that  says png3 = Image.open(...filepath of splash3...).   Please paste the filepath of splash3.png into the designated place.
+
+–On  line  553,  you  will  see  a  line  that  says png4 = Image.open(...filepath of splash3...)Please paste the filepath of splash3.png into the designated place.
+
+–On  line  811  you  will  see  a  line  that  says png1 = Image.open(...filepath of splash2...).   Please paste the filepath of splash2.png into the designated place.
+
+
+
+EXTRA FUNCTION INFORMATION
+##################################################################
+
+•Restart
+–If a user wants to use the restart button, the user must be using MacOS.
+
+
+
