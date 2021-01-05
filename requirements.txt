@@ -5,7 +5,7 @@ MeatMonitor can be used by any user on MacOSX, Windows, or Linux. However, certa
 If a user encounters any potential errors, the errors will be seen in the python console. Please see the remainder of the file for more specific information on installation and set up. 
 Moreover, if you are using Windows or Linux, the dimensions of each label in Tkinter are subject to alteration based on the user's resolution. 
 
-MODULES
+INSTALLATION AND USAGE
 ##################################################################
 
 To use the application you must install the following:
@@ -41,6 +41,8 @@ To use the application you must install the following:
 
 •PyTA
 - Used to test code. Not particularly relevant to the user unless they wish to modify the program and check their work. See https://www.cs.toronto.edu/~david/pyta/
+
+Now you may open main.py in your IDE of choice and run the file. The GUI should appear, else any potential errors causing issues will be seen in the console. 
 
 Data Sets
 ##################################################################
