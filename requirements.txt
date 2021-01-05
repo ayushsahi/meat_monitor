@@ -1,7 +1,9 @@
 INTRODUCTION
 ##################################################################
 
-MeatMonitor can be used by any user on MacOSX, Windows, or Linux. However, certain features are only available in MacOSX like Restart. If a user encounters any potential errors, the errors will be seen in the python console. Please see the remainder of the file for more specific information on installation and set up. Moreover, if you are using Windows or Linux, the dimensions of each label in Tkinter are subject to alteration based on the user's resolution. 
+MeatMonitor can be used by any user on MacOSX, Windows, or Linux. However, certain features are only available in MacOSX like Restart. 
+If a user encounters any potential errors, the errors will be seen in the python console. Please see the remainder of the file for more specific information on installation and set up. 
+Moreover, if you are using Windows or Linux, the dimensions of each label in Tkinter are subject to alteration based on the user's resolution. 
 
 MODULES
 ##################################################################
